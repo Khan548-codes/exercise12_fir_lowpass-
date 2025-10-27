@@ -20,3 +20,5 @@ Explanation: This ripple is the Gibbs phenomenon, caused by the abrupt truncatio
 
 3. Computational CostLearning Point:
  The M=64 filter has 65 coefficients (taps), while the M=20 filter has 21. Implementing the M=64 filter requires more than three times the computational effort (more multiplications and additions per output sample). This demonstrates the practical engineering constraint: better filter performance (steeper roll-off) comes directly at the cost of higher computational complexity and greater processing delay.
+
+ ![images]()
